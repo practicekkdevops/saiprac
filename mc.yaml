@@ -1,9 +1,9 @@
 import random
 
 number = random.randint(1, 10)
-attempts = 0
+attempts = 3
 
-print("Guess a number between 1 and 10")
+print("Guess a number between 1 and 9")
 
 while True:
     guess = int(input("Enter your guess: "))
